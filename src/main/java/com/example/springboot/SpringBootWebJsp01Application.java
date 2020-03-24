@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootWebJsp01Application {
 
     public static void main(String[] args) {
+        System.out.println(123);
         SpringApplication.run(SpringBootWebJsp01Application.class, args);
     }
+
 
 }
